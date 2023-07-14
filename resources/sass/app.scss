@@ -1,18 +1,8 @@
 // Fonts
-@import url("https://fonts.bunny.net/css?family=Nunito");
+@import url('https://fonts.bunny.net/css?family=Nunito');
 
 // Variables
-@import "variables";
+@import 'variables';
 
 // Bootstrap
-@import "bootstrap/scss/bootstrap";
-
-.v-enter-active,
-.v-leave-active {
-    transition: opacity 0.5s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
-    opacity: 0;
-}
+@import 'bootstrap/scss/bootstrap';

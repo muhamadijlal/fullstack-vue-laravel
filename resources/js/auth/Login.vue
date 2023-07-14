@@ -22,7 +22,6 @@ export default {
                     email: this.email,
                     password: this.password,
                 });
-
                 logIn();
                 this.$store.loadUser();
                 this.$router.push({ name: "home" });
